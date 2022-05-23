@@ -1,5 +1,5 @@
 create table orders(
- ORD_ID int primary key,
+ ORD_ID int not null primary key,
  ORD_AMOUNT int not null,
  ORD_DATE date not null,
  CUS_ID INT not null,
